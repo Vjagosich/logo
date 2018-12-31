@@ -1,35 +1,137 @@
 {
-    "name": "flare",
+    "name": "Valter Jagosich - Paciente",
     "children": [
      {
-      "name": "analytics",
+      "name": "Recurso",
       "children": [
-       {
-        "name": "cluster",
-        "children": [
-         {"name": "AgglomerativeCluster", "size": 3938},
-         {"name": "CommunityStructure", "size": 3812},
-         {"name": "HierarchicalCluster", "size": 6714},
-         {"name": "MergeEdge", "size": 743}
-        ]
+        {
+            "name": "Medico",
+            "children": [
+                {"name": "José Araujo", "size": 3500},
+                {"name": "Manuel da Costa", "size": 5000}
+            ]
+        },
+        {
+            "name": "Nutricionista",
+            "children": [
+                {"name": "Maria José", "size": 2500}
+            ]
+        },
+        {
+            "name": "Enfermeiro",
+            "children": [
+                {"name": "Sebastião de araujo", "size": 1500},
+                {"name": "Paula Josefina", "size": 5731}
+            ]
        },
        {
-        "name": "graph",
+            "name": "Cuidador",
+            "children": [
+                {"name": "Ana Cristina de Souza", "size": 8600},
+                {"name": "Isabel Domenica", "size": 2500},
+                {"name": "Isac de Souza", "size": 3000}
+            ]
+        }
+      ]
+     },
+     {
+        "name": "Materiais",
         "children": [
-         {"name": "BetweennessCentrality", "size": 3534},
-         {"name": "LinkDistance", "size": 5731},
-         {"name": "MaxFlowMinCut", "size": 7840},
-         {"name": "ShortestPaths", "size": 5914},
-         {"name": "SpanningTree", "size": 3416}
+         {
+          "name": "cluster",
+          "children": [
+           {"name": "AgglomerativeCluster", "size": 3938},
+           {"name": "CommunityStructure", "size": 3812},
+           {"name": "HierarchicalCluster", "size": 6714},
+           {"name": "MergeEdge", "size": 743}
+          ]
+         },
+         {
+          "name": "graph",
+          "children": [
+           {"name": "BetweennessCentrality", "size": 3534},
+           {"name": "LinkDistance", "size": 5731},
+           {"name": "MaxFlowMinCut", "size": 7840},
+           {"name": "ShortestPaths", "size": 5914},
+           {"name": "SpanningTree", "size": 3416}
+          ]
+         },
+         {
+          "name": "optimization",
+          "children": [
+           {"name": "AspectRatioBanker", "size": 7074}
+          ]
+         }
         ]
        },
+
        {
-        "name": "optimization",
+        "name": "Equipamentos",
         "children": [
-         {"name": "AspectRatioBanker", "size": 7074}
+          {
+              "name": "Medico",
+              "children": [
+                  {"name": "José Araujo", "size": 3500},
+                  {"name": "Manuel da Costa", "size": 5000}
+              ]
+          },
+          {
+              "name": "Nutricionista",
+              "children": [
+                  {"name": "Maria José", "size": 2500}
+              ]
+          },
+          {
+              "name": "Enfermeiro",
+              "children": [
+                  {"name": "Sebastião de araujo", "size": 1500},
+                  {"name": "Paula Josefina", "size": 5731}
+              ]
+         },
+         {
+              "name": "Cuidador",
+              "children": [
+                  {"name": "Ana Cristina de Souza", "size": 8600},
+                  {"name": "Isabel Domenica", "size": 2500},
+                  {"name": "Isac de Souza", "size": 3000}
+              ]
+          }
+        ]
+       },
+
+       {
+        "name": "Medicamentos",
+        "children": [
+          {
+              "name": "Medico",
+              "children": [
+                  {"name": "José Araujo", "size": 3500},
+                  {"name": "Manuel da Costa", "size": 5000}
+              ]
+          },
+          {
+              "name": "Nutricionista",
+              "children": [
+                  {"name": "Maria José", "size": 2500}
+              ]
+          },
+          {
+              "name": "Enfermeiro",
+              "children": [
+                  {"name": "Sebastião de araujo", "size": 1500},
+                  {"name": "Paula Josefina", "size": 5731}
+              ]
+         },
+         {
+              "name": "Cuidador",
+              "children": [
+                  {"name": "Ana Cristina de Souza", "size": 8600},
+                  {"name": "Isabel Domenica", "size": 2500},
+                  {"name": "Isac de Souza", "size": 3000}
+              ]
+          }
         ]
        }
-      ]
-     }
+
     ]
    }
