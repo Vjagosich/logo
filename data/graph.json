@@ -38,28 +38,22 @@
         "name": "Materiais",
         "children": [
          {
-          "name": "cluster",
+          "name": "Diario",
           "children": [
-           {"name": "AgglomerativeCluster", "size": 3938},
-           {"name": "CommunityStructure", "size": 3812},
-           {"name": "HierarchicalCluster", "size": 6714},
-           {"name": "MergeEdge", "size": 743}
+           {"name": "Fraudas Geriatricas", "size": 6938},
+           {"name": "Soro Fisioligico", "size": 5812},
+           {"name": "Ataduras", "size": 6714},
+           {"name": "Alcool", "size": 743}
           ]
          },
          {
-          "name": "graph",
+          "name": "Eventual",
           "children": [
            {"name": "BetweennessCentrality", "size": 3534},
            {"name": "LinkDistance", "size": 5731},
            {"name": "MaxFlowMinCut", "size": 7840},
            {"name": "ShortestPaths", "size": 5914},
            {"name": "SpanningTree", "size": 3416}
-          ]
-         },
-         {
-          "name": "optimization",
-          "children": [
-           {"name": "AspectRatioBanker", "size": 7074}
           ]
          }
         ]
@@ -68,66 +62,53 @@
        {
         "name": "Equipamentos",
         "children": [
-          {
-              "name": "Medico",
-              "children": [
-                  {"name": "José Araujo", "size": 3500},
-                  {"name": "Manuel da Costa", "size": 5000}
-              ]
-          },
-          {
-              "name": "Nutricionista",
-              "children": [
-                  {"name": "Maria José", "size": 2500}
-              ]
-          },
-          {
-              "name": "Enfermeiro",
-              "children": [
-                  {"name": "Sebastião de araujo", "size": 1500},
-                  {"name": "Paula Josefina", "size": 5731}
-              ]
-         },
-         {
-              "name": "Cuidador",
-              "children": [
-                  {"name": "Ana Cristina de Souza", "size": 8600},
-                  {"name": "Isabel Domenica", "size": 2500},
-                  {"name": "Isac de Souza", "size": 3000}
-              ]
-          }
-        ]
-       },
-
-       {
+            {"name": "Cama", "size": 4500},
+            {"name": "Cadeira de rodas", "size": 2000},
+            {"name": "Andador", "size": 8000},
+            {"name": "Cameras", "size": 500},
+            {"name": "desfibrilador", "size": 5000},
+            {"name": "Sensor de quedas", "size": 1000},
+            {"name": "Sensor sonoro", "size": 1500},
+            {"name": "Sensor de localidade", "size": 2500}
+         ]
+        },
+        {
         "name": "Medicamentos",
         "children": [
           {
-              "name": "Medico",
+              "name": "Cardiaco",
               "children": [
-                  {"name": "José Araujo", "size": 3500},
-                  {"name": "Manuel da Costa", "size": 5000}
+                  {"name": "Captopril", "size": 3500},
+                  {"name": "Enalapril", "size": 5000}
               ]
           },
           {
-              "name": "Nutricionista",
+              "name": "Analgésicos",
               "children": [
-                  {"name": "Maria José", "size": 2500}
+                  {"name": "Paracetamol", "size": 10000},
+                  {"name": "Dipirona", "size": 200}
               ]
           },
           {
-              "name": "Enfermeiro",
+              "name": "Diuréticos",
               "children": [
-                  {"name": "Sebastião de araujo", "size": 1500},
-                  {"name": "Paula Josefina", "size": 5731}
+                  {"name": "Furosemida", "size": 1500},
+                  {"name": "Hidroclorotiazida", "size": 5731},
+                  {"name": "Indapamida", "size": 431}
               ]
          },
          {
-              "name": "Cuidador",
+              "name": "Diabetes",
               "children": [
-                  {"name": "Ana Cristina de Souza", "size": 8600},
-                  {"name": "Isabel Domenica", "size": 2500},
-                  {"name": "Isac de Souza", "size": 3000}
+                  {"name": "Metformina", "size": 8600}
+              ]
+          },
+         {
+              "name": "Anti-inflamatórios",
+              "children": [
+                  {"name": "Ibuprofeno", "size": 8600},
+                  {"name": "Nimesulida", "size": 2500},
+                  {"name": "Naproxeno", "size": 3000}
               ]
           }
         ]
